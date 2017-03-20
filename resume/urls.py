@@ -1,7 +1,6 @@
 from django.conf.urls import url
-from .views import ResumeView, ProfileView
+from .views import ResumeView
 
 urlpatterns = [
-    url(r'^resume/$', ResumeView.as_view(), name='resume'),
-    url(r'^profile/$', ProfileView.as_view(), name='profile')
+    url(r'^resume/$', ResumeView.as_view(), name='resume')
 ]

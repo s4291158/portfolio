@@ -13,77 +13,195 @@
   <div class="container main-container z-depth-3">
     <div class="row">
       <div class="col s12 center-align">
-        <a target="_blank" href="https://www.linkedin.com/in/zerongtonywang/">LinkedIn</a>
-        | <a target="_blank" href="https://github.com/s4291158">GitHub</a>
-        | <a target="_blank" href="https://twitter.com/ZerongTonyWang">Twitter</a>
-        {% block extra_links %}{% endblock %}
+        <a target="_blank" href="https://www.linkedin.com/in/zerongtonywang/"><span>
+          LinkedIn
+        </span></a>
+        | <a target="_blank" href="https://github.com/s4291158"><span>
+          GitHub
+        </span></a>
+        | <a target="_blank" href="https://twitter.com/ZerongTonyWang"><span>
+          Twitter
+        </span></a>
       </div>
     </div>
 
     <div class="row row-section row-intro">
-      <div class="col m3">
+      <div class="col m3 s12">
         <div class="dp-container">
           <img class="responsive-img circle" src="{% static 'img/square.png' %}">
         </div>
       </div>
-      <div class="col m9">
+      <div class="col m9 s12">
         <h3>Zerong Tony Wang</h3>
-        <h5 class="grey-text lighten-2">Software Engineer | Full Stack Developer</h5>
-        <a href="mailto:zerongtonywang@gmail.com?Subject=Intro">zerongtonywang@gmail.com</a>
+        <h5 class="grey-text lighten-2 flow-text">Software Engineer | Full Stack Developer</h5>
+        <a href="mailto:zerongtonywang@gmail.com?Subject=Intro"><span class="flow-text">
+          zerongtonywang@gmail.com
+        </span></a>
       </div>
     </div>
 
     <div class="row row-section">
-      <div class="col m3">
+      <div class="col m3 s12">
         <h5>Summary</h5>
       </div>
-      <div class="col m9">
-        <p>
-          Software engineer packed with startup experiences specialising in product development, growth and management.
+      <div class="col m9 s12">
+        <p class="flow-text">
+          Startup oriented developer with a focus on software product development, growth and management.
         </p>
       </div>
     </div>
 
-    <div class="row row-section hide">
-      <div class="col m3">
+    <div class="row row-section">
+      <div class="col m3 s12">
         <h5>Skills</h5>
       </div>
-    </div>
-    <div class="row row-section hide">
-      <div class="col m3">
-        <h5>Tech</h5>
+
+      <div class="col m4 s12">
+        <h6 class="section-title">Languages</h6>
+        <ul>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+
+      <div class="col m4 s12">
+        <h6 class="section-title">Tech</h6>
+        <ul>
+          <li>Amazon Web Services</li>
+          <li>SQL databases</li>
+          <li>Linux & shell scripts</li>
+        </ul>
       </div>
     </div>
     <div class="row row-section">
-      <div class="col m3">
+      <div class="col m3 s12">
         <h5>Experience</h5>
       </div>
-      <div class="col m9">
+      <div class="col m9 s12">
         <div class="section-item">
-          <h6 class="section-title">Full Stack Developer - iRecruit Australia</h6>
-          <span>May 2016 - February 2017</span>
+          <h6 class="section-title">Full Stack Developer - Contracting</h6>
+          <span>2017.2 - Current</span>
+          <ul class="browser-default">
+            <li>
+              Scripting & automation
+            </li>
+            <li>
+              Personal / business websites
+            </li>
+            <li>
+              Consulting
+            </li>
+            <li>
+              Full project development
+            </li>
+          </ul>
+        </div>
+
+        <div class="section-item">
+          <h6 class="section-title">Software Engineer - iRecruit Australia</h6>
+          <span>2016.5 - 2017.2</span>
           <ul class="browser-default">
             <li>
               Core backend developer for all 3 MVP products with the largest serving more than 40 endpoints
             </li>
             <li>
-              Lead and participated in small team to build product backend, using python, django, and postgresql
+              Lead and participated in small team to build product backend, using Python, Django, and Postgresql
             </li>
             <li>
-              Contributed to frontend development in react.js
+              Contributed to frontend development in ReactJS
             </li>
             <li>
               SCRUM, agile, and test driven development
             </li>
           </ul>
         </div>
+
+        <div class="section-item">
+          <h6 class="section-title">Tech Intern - ilab UQ</h6>
+          <span>2015.12 - 2016.3</span>
+          <ul class="browser-default">
+            <li>
+              Full stack developer for two MVPs (one Java, one Python)
+            </li>
+            <li>
+              Content marketing & SEO
+            </li>
+            <li>
+              Advised startup companies on business model and finding product market fit
+            </li>
+          </ul>
+        </div>
+
+        <div class="section-item">
+          <h6 class="section-title">Marketing Intern - Ambi Enterprises</h6>
+          <span>2015.3 - 2015.7</span>
+          <ul class="browser-default">
+            <li>
+              Social media management
+            </li>
+            <li>
+              Marketing material design
+            </li>
+            <li>
+              Event management for launch party, efforts include chasing sponsors, event promotion, etc
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col m3">
+    <div class="row row-section">
+      <div class="col m3 s12">
         <h5>Projects</h5>
       </div>
-      <div class="col m9">
+      <div class="col m9 s12">
+        <div class="section-item">
+          <a target="_blank" href="https://github.com/s4291158/QAaggregator">
+            <h6 class="section-title">Quora answer popularity analysis</h6>
+          </a>
+          <p>
+            A study to identify popularity indicators of answers on Quora, with help.
+          </p>
+          <ul class="browser-default">
+            <li>Reverse engineered Quora's client side authentication mechanism</li>
+            <li>Handled data scraping, processing and storing</li>
+            <li>Designed experiments to validate correlations between data sets</li>
+          </ul>
+        </div>
+
+        <div class="section-item">
+          <a target="_blank" href="https://github.com/s4291158/dota2-lounge-analysis">
+            <h6 class="section-title">DOTA2 lounge analysis</h6>
+          </a>
+          <p>
+            The project aimed to prove the hypothesis "In any given match, a team is considered under/over valued
+            based on their betting odds (expectation) compared to their performance rating(actual), therefore there
+            could exist a model capable of exploiting the differences."
+          </p>
+          <ul class="browser-default">
+            <li>Handled data scraping, processing and storing</li>
+            <li>Determined rating model to accurately assess teams and their performances</li>
+            <li>Determined betting model to exploit over/under valued teams, capable of breaking even</li>
+          </ul>
+        </div>
+
+        <div class="section-item">
+          <a target="_blank" href="https://github.com/s4291158/trump">
+            <h6 class="section-title">Is trump going to be president?</h6>
+          </a>
+          <p>
+            For shits and giggles, the site allowed users to see a random sarcastic comment about Donald Trump becoming
+            president, they can also add their own comment to the random pool. The project aimed to assess my ability to
+            build and deploy a simple interactive website, as well as assessing my ability to distribute interesting
+            content.
+          </p>
+          <ul class="browser-default">
+            <li>105K views & 27K users in first 24 hours</li>
+            <li>First custom built & deployed website using Django, nginx, and gunicorn</li>
+          </ul>
+        </div>
+
         <div class="section-item">
           <h6 class="section-title">parking4uni</h6>
           <p>
@@ -97,20 +215,14 @@
             <li>Worked on addressing legality concerns</li>
           </ul>
         </div>
-
-        <div class="section-item">
-          <a target="_blank" href="https://github.com/s4291158/dota2-lounge-analysis">
-            <h6 class="section-title">dota2-lounge-analysis</h6>
-          </a>
-          <p>
-            Analysis on past performances of esport teams to predict their odds of winning, compared
-          </p>
-          <ul class="browser-default">
-            <li>Joined by two other team members</li>
-            <li>Built MVP</li>
-            <li>Media attention: article and radio segment</li>
-          </ul>
-        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m3 s12">
+        <h5 class="truncate">Recommendations</h5>
+      </div>
+      <div class="col m9 s12">
+        <h6 class="section-title">Coming soon...</h6>
       </div>
     </div>
   </div>
