@@ -12,8 +12,18 @@ body {
       width: 100%;
       box-shadow: none; } }
 
-.dp-container {
-  padding: 10px 25px; }
+.dp-container img {
+  display: block;
+  width: 90%;
+  max-width: 180px;
+  margin: auto; }
+  @media (max-width: 600px) {
+    .dp-container img {
+      width: 45%; } }
+
+@media (max-width: 600px) {
+  .headline {
+    text-align: center; } }
 
 .section-item {
   padding-bottom: 20px; }
